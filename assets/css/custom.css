@@ -1,0 +1,66 @@
+.highlightText {
+    background-image: linear-gradient(180deg,transparent 65%,#287cdbb8 0);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    transition: background-size .4s ease;
+    width: fit-content;
+}
+
+.highlightText:hover{
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.highlight-text-no-hover{
+    background-image: linear-gradient(180deg,transparent 65%,#287cdbb8 0);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.highlight-color-1{
+    background-image: linear-gradient(180deg,transparent 65%,#f9982eb0 0);
+}
+.highlight-color-2{
+    background-image: linear-gradient(180deg,transparent 65%,#d92ab9b8 0);
+}
+.highlight-color-3{
+    background-image: linear-gradient(180deg,transparent 65%,#28db82b8 0);
+}
+
+.underline {
+    border-bottom: 1px solid;
+}
+
+.side-by-side{
+    display: flex;
+}
+
+.side-by-side > div {
+    flex: 1;
+}
+
+li > a {
+    text-decoration: underline;
+}
+
+ul.space > li {
+    padding-bottom: 20px;
+}
+
+ul.no-underline > li > a {
+    text-decoration: none;
+}
+
+ul.no-underline > li > a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .side-by-side {
+        flex-direction: column;
+    }
+}
