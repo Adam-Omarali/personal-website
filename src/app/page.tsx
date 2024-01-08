@@ -1,8 +1,10 @@
+import NavigationMenuDemo from "@/components/navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
+      <NavigationMenuDemo />
       <p>Adam Omarali</p>
       <Image
         src="/img/IMG_2284.JPG"
