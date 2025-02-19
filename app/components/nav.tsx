@@ -17,6 +17,10 @@ const navItems = {
     name: "inspiration",
     external: false,
   },
+  "/reading": {
+    name: "reading",
+    external: false,
+  },
   "/blog": {
     name: "thoughts",
     external: false,

@@ -34,7 +34,7 @@ export const memories: Memory[] = [
     id: 4,
     name: "Proxy Testing",
     description:
-      "For a design course, we tried to held the Toronto Island Community prevent ice buildup near they're ferry dock. To test our scaled-down designs, we used a kiddie pool. We got a lot of looks on street though.",
+      "For a design course, we tried to help the Toronto Island Community prevent ice buildup near their ferry dock. To test our scaled-down designs, we used a kiddie pool. We got a lot of looks on street though.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512957/IMG_3977_swuxig.png",
   },
@@ -82,127 +82,128 @@ export const memories: Memory[] = [
     id: 10,
     name: "Baseball",
     description:
-      "I've been playing baseball since I was 5. This was a pic from miami when improptu shagged flies for some strangers I just met.",
+      "I've been playing baseball since I was 5. This was a pic from miami when I improptu shagged flies for some strangers I just met.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512400/IMG_4276_jvwks4.jpg",
   },
   {
     id: 12,
-    name: "Code",
+    name: "Telora",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Handwritten letters we delivered door to door to talk with construction managers",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512400/IMG_4184_arx44b.jpg",
   },
   {
     id: 13,
-    name: "Code",
+    name: "Sri Lanka",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Presented a paper on accurate carbon credit accounting at the International Conference for Climate Change. The picture is along the waterline in Colombo.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511293/srilanka_zhwkcr.jpg",
   },
   {
     id: 14,
-    name: "Code",
+    name: "Flute",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "I started playing flute in Grade 8, and stuck with it ever since. Here I'm soloing over Cold Duck Time",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511291/flute_dhwjdx.png",
   },
   {
     id: 15,
-    name: "Code",
+    name: "Pokemon",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "I got to travel the world and play the Pokemon trading card game competitively.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511290/pokemon_lcrk3o.jpg",
   },
   {
     id: 16,
-    name: "Code",
+    name: "Telora",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Kickoff Dinner at Telora",
     image:
-      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511291/BDC_mtsnny.jpg",
+      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511289/telora_m3wodk.jpg",
   },
   {
     id: 17,
-    name: "Code",
+    name: "CaYPT",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Analyzing the motion of a neodymium magnet tower for the Canadian Young Physics Tournament.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511291/physics_bbx5in.png",
   },
   {
     id: 18,
-    name: "Code",
+    name: "Nietzsche",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "I dressed up as Nietzsche for Halloween. It's corny. I know.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511288/nietzsche_m9zdtv.jpg",
   },
   {
     id: 19,
-    name: "Code",
+    name: "Big Data Challenge",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Our prize for winning the Canadian Big Data Challenge, developing a proximity index for a cities access to ammenities.",
     image:
-      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511289/telora_m3wodk.jpg",
+      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511291/BDC_mtsnny.jpg",
   },
   {
     id: 20,
-    name: "Code",
+    name: "Hawkhacks Hackathon Winner",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Built and deployed a crypto + NFT powered E-Sports creator store on mainnet in 36 hours.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511289/dubs_and2al.jpg",
   },
+  
   {
     id: 21,
-    name: "Code",
+    name: "Mt. Killimanjaro",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Summited Mt. Killimanjaro with the flu in August 2024",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511290/kilimanjaro_refgsg.jpg",
   },
   {
-    id: 23,
-    name: "Code",
+    id: 22,
+    name: "Anahiem Ducks",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "I'm an Anahiem Ducks fan. I watch them loose to the Leafs every year for 7 years. It make me sad.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512401/IMG_4641_u2oeev.jpg",
   },
   {
-    id: 24,
-    name: "Code",
+    id: 23,
+    name: "Cooking",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "I'm trying to cook more, but cooking intuition is something I severly lack.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737869396/IMG_4643_biyjgo.jpg",
   },
   {
-    id: 25,
-    name: "Code",
+    id: 24,
+    name: "Aerospace Design Team",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Our assembled wing where I designed the elevator and assembled it.",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737869396/IMG_4767_ujviwp.jpg",
   },
   {
-    id: 26,
-    name: "Code",
+    id: 25,
+    name: "Meraki",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Meraki speaking at Google thanks to Hashir Jaffry!",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737869396/IMG_8088_copy_ga8jb8.jpg",
   },
   {
-    id: 28,
-    name: "Code",
+    id: 26,
+    name: "Meraki",
     description:
-      "I write code to build things I find interesting. Check out my github for more.",
+      "Meraki @ Janruary 2025",
     image:
       "https://res.cloudinary.com/duikxb1ch/image/upload/v1737869396/DSC01006_j4rsyt.jpg",
   },

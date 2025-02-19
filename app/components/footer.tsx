@@ -63,6 +63,17 @@ export default function Footer() {
             <p className="ml-2 h-7">youtube</p>
           </a>
         </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 "
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://calendly.com/adamomarali"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">chat</p>
+          </a>
+        </li>
       </ul>
     </footer>
   );

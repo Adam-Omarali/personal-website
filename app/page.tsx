@@ -43,7 +43,7 @@ export default function Page() {
         </div>
       </div>
       <p className="mb-4">
-        {`i just wanna say that websites are really hard. 100% of your perception of me will be based on a site i took a fraction of my life to make but here it goes.`}
+        {`i just wanna say that websites are really hard. 100% of your perception of me will be based on a site i took a fraction of my life to make but here it goes 😀.`}
       </p>
 
       <section>
