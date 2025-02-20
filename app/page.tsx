@@ -28,7 +28,13 @@ export default function Page() {
       </p>
       <p className="mb-4">
         i like to write code, build embedded devices, do physics experiments,
-        produce music, and philosophize.
+        produce music, and{" "}
+        <a
+          href="https://open.spotify.com/show/23f5eTJKWR8DEgBb9tYxf8?si=4d632a1a85314e72"
+          className="underline"
+        >
+          philosophize.
+        </a>
       </p>
       <div className="flex items-center justify-center mb-4">
         <div className="flex flex-row gap-4 overflow-x-auto">

@@ -6,6 +6,7 @@ import { Navbar } from "./components/nav";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { baseUrl } from "./sitemap";
 
 export const metadata: Metadata = {
@@ -60,6 +61,7 @@ export default function RootLayout({
           <Footer />
           <Analytics />
           <SpeedInsights />
+          <GoogleAnalytics gaId="G-LBHQRY5SMY" />
         </main>
       </body>
     </html>
