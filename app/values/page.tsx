@@ -17,6 +17,11 @@ const values = [
       "hold with conviction that you can do anything you set your mind to. when you say you're going to do something, you actually do it. but don't brag about what you're capable of. the only person self-belief matters for is yourself.",
   },
   {
+    title: "change your eye-level",
+    description:
+      "just when you think you know something, seek another perspective. form beliefs and share them with people you value. perspective is the most powerful way to expand what you're mind thinks is reality.",
+  },
+  {
     title: "seek discomfort",
     description:
       "live for the butterflies, the clenching teeth, the every so often illogical thought. to become more than who you are now, you have to do things you've never done. failure is inevitable.",
@@ -24,7 +29,7 @@ const values = [
   {
     title: "create what is missing",
     description:
-      "when you see a gap in the world, a right to be wrong, a pain, you activate the change. you can bend the world to your will.",
+      "when you see a gap in the world, a wrong to right, a pain, you activate the change. you can bend the world to your will.",
   },
   {
     title: "make magic",
@@ -35,11 +40,6 @@ const values = [
     title: "be present",
     description:
       "enjoy what is in front of you. to be present, you have to do things you genuinely want to do. practice like its a game because if you don't try to be the best, you won't even be great.",
-  },
-  {
-    title: "change your eye-level",
-    description:
-      "just when you think you know something, seek another perspective. form beliefs and share them with people you value. perspective is the most powerful way to expand what you're mind thinks is reality.",
   },
   {
     title: "do more with less",

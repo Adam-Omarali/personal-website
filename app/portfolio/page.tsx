@@ -21,6 +21,88 @@ const projects: Project[] = [
     tags: ["engineering", "embedded systems", "software", "ai"],
   },
   {
+    id: "bdc",
+    title: "Big Data Challenge",
+    description: "Analysis of city design through proximity to ammenities",
+    image:
+      "https://storeys.com/media-library/toronto-best-city-expats.jpg?id=34014893&width=1245&height=700&quality=90&coordinates=0%2C31%2C0%2C31",
+    tags: ["software", "data science"],
+  },
+  {
+    id: "physics",
+    title: "Physics Experiments",
+    description: "Quantum, E&M, Mechanics",
+    image:
+      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512402/IMG_4759_xxisy1.jpg",
+    tags: ["physics", "hardware"],
+  },
+  {
+    id: "frc",
+    title: "FRC Robotics",
+    description: "PID, Intake, Scouting App Lead",
+    image: "/images/projects/frc-2023.jpeg",
+    tags: ["engineering", "embedded systems", "software"],
+  },
+  {
+    id: "utat",
+    title: "Aerospace Design Team",
+    description: "Aircraft design and construction",
+    image:
+      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737869396/IMG_4767_ujviwp.jpg",
+    tags: ["engineering", "hardware", "software", "cad"],
+  },
+  {
+    id: "feynman",
+    title: "Feynman",
+    description: "Retain what you learn",
+    image: "/images/projects/feynman.png",
+    tags: ["webdev", "software"],
+  },
+  {
+    id: "x",
+    title: "X, The Moonshot Factory",
+    description: "Photochromic shirt that changes design",
+    image: "/images/projects/x.jpeg",
+    tags: ["engineering"],
+  },
+  {
+    id: "civ",
+    title: "Bridge Design",
+    description: "Designed and built a 1.2m bridge that supports 510N",
+    image:
+      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512953/IMG_3646_gyouhh.png",
+    tags: ["engineering", "hardware", "software"],
+  },
+  {
+    id: "zephyr",
+    title: "AI Agent Video Editor",
+    description: "Summarize videos with AI agents",
+    image: "/images/projects/zephyr.png",
+    tags: ["software", "ai"],
+  },
+  {
+    id: "basemint",
+    title: "Hackathon Winner",
+    description: "Near powered NFT E-Sports store",
+    image: "/images/projects/basemint.png",
+    tags: ["webdev", "software"],
+  },
+  {
+    id: "bridge",
+    title: "Bridge",
+    description: "Create voice commands for any application",
+    image: "/images/projects/bridge.jpg",
+    tags: ["software", "webdev", "ai"],
+  },
+  {
+    id: "robotics",
+    title: "Embedded Devices",
+    description: "Compilation of small embedded systems projects",
+    image:
+      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512401/IMG_4570_msxeu0.jpg",
+    tags: ["engineering", "hardware", "software", "embedded systems", "cad"],
+  },
+  {
     id: "medical",
     title: "Medical Errors",
     description: "A root cause analysis of medical errors",
@@ -42,36 +124,6 @@ const projects: Project[] = [
     tags: ["deep dives"],
   },
   {
-    id: "civ",
-    title: "Bridge Design",
-    description: "Designed and built a 1.2m bridge",
-    image:
-      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512953/IMG_3646_gyouhh.png",
-    tags: ["engineering", "hardware", "software"],
-  },
-  {
-    id: "frc",
-    title: "FRC Robotics",
-    description: "PID, Intake, Scouting App Lead",
-    image: "/images/projects/frc-2023.jpeg",
-    tags: ["engineering", "embedded systems", "software"],
-  },
-  {
-    id: "feynman",
-    title: "Feynman",
-    description: "Retain what you learn",
-    image: "/images/projects/feynman.png",
-    tags: ["webdev", "software"],
-  },
-  {
-    id: "physics",
-    title: "Physics Experiments",
-    description: "Quantum, E&M, Mechanics",
-    image:
-      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512402/IMG_4759_xxisy1.jpg",
-    tags: ["physics", "hardware"],
-  },
-  {
     id: "praxis",
     title: "Ferry Dock Design ",
     description: "Engineering design to remove ice from the ferry dock",
@@ -80,62 +132,11 @@ const projects: Project[] = [
     tags: ["engineering"],
   },
   {
-    id: "robotics",
-    title: "Embedded Devices",
-    description: "Compilation of small embedded systems projects",
-    image:
-      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512401/IMG_4570_msxeu0.jpg",
-    tags: ["engineering", "hardware", "software", "embedded systems", "cad"],
-  },
-  {
-    id: "utat",
-    title: "Aerospace Design Team",
-    description: "Aircraft design and construction",
-    image:
-      "https://res.cloudinary.com/duikxb1ch/image/upload/v1737869396/IMG_4767_ujviwp.jpg",
-    tags: ["engineering", "hardware", "software", "embedded systems", "cad"],
-  },
-  {
-    id: "x",
-    title: "X, The Moonshot Factory",
-    description: "Photochromic shirt that changes design",
-    image: "/images/projects/x.jpeg",
-    tags: ["engineering"],
-  },
-  {
-    id: "basemint",
-    title: "Hackathon Winner",
-    description: "Near powered NFT E-Sports store",
-    image: "/images/projects/basemint.png",
-    tags: ["webdev", "software"],
-  },
-  {
-    id: "bdc",
-    title: "Big Data Challenge",
-    description: "Analysis of city design through proximity to ammenities",
-    image: "/images/projects/bdc.png",
-    tags: ["software", "data science"],
-  },
-  {
     id: "consulting",
     title: "Consulting",
     description: "Helping XPrize get 300+ quality teams",
     image: "/images/projects/xprize.png",
     tags: ["consulting"],
-  },
-  {
-    id: "bridge",
-    title: "Bridge",
-    description: "Create voice commands for any application",
-    image: "/images/projects/bridge.jpg",
-    tags: ["software", "webdev", "ai"],
-  },
-  {
-    id: "agents",
-    title: "AI Agent Video Editor",
-    description: "Summarize videos with AI agents",
-    image: "",
-    tags: ["software", "ai"],
   },
   // Add more projects here
 ];
@@ -215,10 +216,35 @@ function Portfolio() {
         <div>
           <p className="mt-8 text-xl font-semibold">misc. projects</p>
           <ul className="list-disc ml-5 mt-2">
-            <li>division in verilog</li>
             <li>
-              hex display counter with button I/O polling and interrupts in
-              RISC-V
+              division in verilog -{" "}
+              <a
+                href="https://github.com/Adam-Omarali/engsci/blob/main/ECE253/lab5/part3.sv"
+                className="text-blue-500"
+                target="_blank"
+              >
+                github
+              </a>
+            </li>
+            <li>
+              led counter with button{" "}
+              <a
+                href="https://github.com/Adam-Omarali/engsci/blob/main/ECE253/lab8/part3.s"
+                className="text-blue-500"
+                target="_blank"
+              >
+                I/O polling
+              </a>{" "}
+            </li>
+            <li>
+              hex display counter with button interrupts in RISC-V -{" "}
+              <a
+                href="https://github.com/Adam-Omarali/engsci/blob/main/ECE253/lab9/part2.s"
+                className="text-blue-500"
+                target="_blank"
+              >
+                github
+              </a>
             </li>
           </ul>
         </div>

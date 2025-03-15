@@ -3,7 +3,7 @@ import Link from "next/link";
 import BeverageBubbles from "app/components/BeverageBubbles";
 
 const images = [
-  "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512674/IMG_4670_Large_vxopin.jpg",
+  "https://res.cloudinary.com/duikxb1ch/image/upload/v1742079735/DSC01205_3_e7vsa2.jpg",
   "https://res.cloudinary.com/duikxb1ch/image/upload/v1737511289/bracket_ppgbqw.jpg",
   "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512402/IMG_4759_xxisy1.jpg",
   "https://res.cloudinary.com/duikxb1ch/image/upload/v1737512400/IMG_4401_oiz2cp.jpg",
@@ -24,7 +24,16 @@ export default function Page() {
           engineering science
         </a>{" "}
         at uoft because i like understanding things from first principles. i
-        crave the feeling of creating something out of nothing.
+        crave the feeling of creating something out of nothing. you can read
+        about my engineering process{" "}
+        <a
+          href="https://adamsengineeringhandbook.vercel.app"
+          className="underline"
+          target="_blank"
+        >
+          here
+        </a>
+        .
       </p>
       <p className="mb-4">
         i like to write code, build embedded devices, do physics experiments,
@@ -36,7 +45,7 @@ export default function Page() {
           philosophize.
         </a>
       </p>
-      <div className="flex items-center justify-center mb-4">
+      <div className="flex items-center justify-between mb-4">
         <div className="flex flex-row gap-4 overflow-x-auto">
           {images.map((src, index) => (
             <img
@@ -143,20 +152,24 @@ export default function Page() {
               hackathons - i've done 15+ hackathons. they're a blast.
             </p>
           </li>
+          <li>
+            <p className="mb-4">
+              made an{" "}
+              <a
+                href="https://open.spotify.com/artist/3K49G6Qf78adI7KG77Wr5i?si=64l-2L5YT9aD3G6OIIIRUg"
+                className="underline"
+              >
+                album
+              </a>
+            </p>
+          </li>
         </ul>
-      </section>
-
-      <section>
-        <BeverageBubbles />
-      </section>
-
-      <section>
-        <h1 className="text-2xl font-semibold tracking-tighter mb-4 highlight-base highlight-nohover highlight-magenta">
-          recent writing
-        </h1>
-        <div className="my-8">
-          <BlogPosts />
-        </div>
+        <iframe
+          width="500"
+          height="281"
+          src="https://www.youtube.com/embed/kA20y0fKgFQ"
+          title="What I&#39;ve Been Building"
+        ></iframe>
       </section>
     </section>
   );

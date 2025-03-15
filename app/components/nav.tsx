@@ -13,14 +13,18 @@ const navItems = {
     name: "portfolio",
     external: false,
   },
+  "/memories": {
+    name: "memories",
+    external: false,
+  },
   "/inspiration": {
     name: "inspiration",
     external: false,
   },
-  "/reading": {
-    name: "reading",
-    external: false,
-  },
+  // "/reading": {
+  //   name: "reading",
+  //   external: false,
+  // },
   "/blog": {
     name: "thoughts",
     external: false,

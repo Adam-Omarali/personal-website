@@ -8,6 +8,12 @@ module.exports = {
           pathname: '/**',
           search: '',
         },
+        {
+          protocol: 'https',
+          hostname: 'storeys.com',
+          port: '',
+          pathname: '/media-library/**',
+        },
       ],
     },
   }
