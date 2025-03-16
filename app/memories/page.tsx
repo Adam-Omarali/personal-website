@@ -6,7 +6,7 @@ export default function MemoriesPage() {
       <h1 className="text-2xl font-semibold highlight-base highlight-nohover highlight-magenta mb-4">
         memories
       </h1>
-      <div className="w-[150%] mb-50 relative right-1/4">
+      <div className="w-full md:w-[150%] mb-50 relative md:right-1/4">
         <ParallaxGallery />
       </div>
       {/* <Gallery /> */}

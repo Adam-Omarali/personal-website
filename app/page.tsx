@@ -52,7 +52,9 @@ export default function Page() {
               key={src}
               src={src}
               alt={`${index + 1}`}
-              className="object-cover w-32 h-32"
+              className={`object-cover w-32 h-32 ${
+                index === 1 || index === 3 ? "hidden md:block" : ""
+              }`}
             />
           ))}
         </div>
@@ -165,10 +167,9 @@ export default function Page() {
           </li>
         </ul>
         <iframe
-          width="500"
-          height="281"
+          className="w-full md:w-[500px] aspect-video"
           src="https://www.youtube.com/embed/kA20y0fKgFQ"
-          title="What I&#39;ve Been Building"
+          title="What I've Been Building"
         ></iframe>
       </section>
     </section>
