@@ -56,8 +56,7 @@ function Bio() {
         presence of a gene (an if statement for the human body).
       </p>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/WgJOfsLGZ2M?si=e6VyKCphDtH9Ktbs"
         title="YouTube video player"
       ></iframe>
@@ -77,8 +76,7 @@ function Bio() {
         getting a disease.
       </p>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/0VZ-pWJdB_E?si=AYRv5aN0zl7xk5xK"
         title="YouTube video player"
       ></iframe>

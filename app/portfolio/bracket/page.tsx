@@ -10,8 +10,7 @@ function Page() {
           user input on a seperate thread.
         </p>
         <iframe
-          width="426"
-          height="757"
+          className="w-full md:w-[426px] aspect-[9/16]"
           src="https://www.youtube.com/embed/6J1issVvxiQ"
           title="bracket bot imitates tars and bumps around"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -25,8 +24,7 @@ function Page() {
           elevator doors and navigate towards them.
         </p>
         <iframe
-          width="426"
-          height="757"
+          className="w-full md:w-[426px] aspect-[9/16]"
           src="https://www.youtube.com/embed/bSC1gGKfigg"
           title="delivery robot picks up amazon package"
         />
@@ -36,8 +34,7 @@ function Page() {
           a webfeed to display images from the camera in realtime.
         </p>
         <iframe
-          width="500"
-          height="281"
+          className="w-full md:w-[500px] aspect-video"
           src="https://www.youtube.com/embed/7KDEcsefSfo"
           title="bracket bot is attracted to a water bottle"
         />

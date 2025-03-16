@@ -13,8 +13,7 @@ function BDC() {
         in a paper.
       </p>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/SSu8a05wwQI?si=xYpfQqPxLbvpbnwy"
         title="YouTube video player"
       ></iframe>

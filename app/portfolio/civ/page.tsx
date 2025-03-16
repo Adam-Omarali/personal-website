@@ -20,8 +20,7 @@ function Civ() {
       </p>
       <p className="mb-4">Our bridge is the first yellow one!</p>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/PQ8FPqUQtPY?si=c0zbLPSwvDju8utS"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -7,8 +7,7 @@ function Zephyr() {
         AI Agent Video Editor - Hackathon Finalist
       </h1>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/jTQoXdVIk5M?si=dh-lsYm8ELNVwjUO"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

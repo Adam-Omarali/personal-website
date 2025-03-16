@@ -7,8 +7,7 @@ function Bridge() {
         Bridge - Voice Commands for Any Application
       </h1>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/-WAq_vkbNWE?si=wrYfuZyVmcxdP2LE"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

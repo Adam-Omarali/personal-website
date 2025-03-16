@@ -10,8 +10,7 @@ function X() {
         Learned how to think 10x to solve the world's biggest problems.
       </p>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/_B7xkG3-zqo?si=1j8LxCHcK5lHpfH1"
         title="YouTube video player"
       ></iframe>

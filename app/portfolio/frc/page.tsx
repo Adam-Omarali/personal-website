@@ -15,8 +15,7 @@ function FRC() {
         system.
       </p>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/CSu-fwy-tuE"
         title="FRC"
       ></iframe>

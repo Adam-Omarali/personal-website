@@ -7,8 +7,7 @@ function Feynman() {
         Feynman: Retain What You Learn
       </h1>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/WqdKqSpYPGA?si=vfXe-5CB8YIG3HWZ"
         title="YouTube video player"
       ></iframe>

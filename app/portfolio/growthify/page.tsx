@@ -7,8 +7,7 @@ function Growthify() {
         Growthify: Track Personal Growth
       </h1>
       <iframe
-        width="560"
-        height="315"
+        className="w-full md:w-[560px] aspect-video"
         src="https://www.youtube.com/embed/C21eqBE0Wg8?si=ZvlBGD4YblTeDwRl"
         title="YouTube video player"
       ></iframe>
