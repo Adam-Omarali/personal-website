@@ -193,7 +193,7 @@ function Portfolio() {
           <Link
             href={`/portfolio/${project.id}`}
             key={project.id}
-            className="group relative aspect-[4/5] overflow-hidden rounded-lg"
+            className="group relative aspect-4/5 overflow-hidden rounded-lg"
           >
             <Image
               src={project.image}

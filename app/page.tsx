@@ -18,7 +18,7 @@ export default function Page() {
       <p className="mb-4">
         i'm currently studying{" "}
         <a
-          className="underline hover:text-[--link-hover] transition-colors"
+          className="underline hover:text-(--link-hover) transition-colors"
           href="https://engineering.calendar.utoronto.ca/section/Engineering-Science"
         >
           engineering science

@@ -84,7 +84,7 @@ export function ParallaxScroll({ images }: ParallaxProps) {
         </div>
       </div>
       {/* Responsive spacer div */}
-      <div className="h-16 md:h-[150px]" />
+      {/* <div className="h-16 md:h-[100px]" /> */}
     </section>
   );
 }
